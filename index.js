@@ -47,7 +47,7 @@ async function run() {
         query.productName = { $regex: search, $options: 'i' };
       }
 
-
+      //Sorting
       const options = {
         sort: {}
       };
