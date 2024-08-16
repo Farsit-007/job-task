@@ -1,5 +1,5 @@
 # [Live Link](https://jobtask-11f81.web.app/)  
-# [Server Repository](https://github.com/Farsit-007/job-task-client)
+# [Client Repository](https://github.com/Farsit-007/job-task-client)
 
 # Technologies : 
   • React.js <br/>
