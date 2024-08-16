@@ -27,7 +27,7 @@ async function run() {
     const BransCollection = client.db('Jobtask').collection('brand')
     const CategoryCollection = client.db('Jobtask').collection('category')
 
-
+   
     app.get('/products', async (req, res) => {
       const size = parseInt(req.query.size);
       const page = parseInt(req.query.page) - 1;
