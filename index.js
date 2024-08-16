@@ -59,6 +59,7 @@ async function run() {
         options.sort.creationDate = 1;
       }
 
+      //Filtering
       if (brands.length > 0) {
         query.brandName = { $in: Array.isArray(brands) ? brands : [brands] };
       }
