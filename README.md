@@ -2,13 +2,10 @@
 # [Client Repository](https://github.com/Farsit-007/job-task-client)
 
 # Technologies : 
-  • React.js <br/>
-  • Tailwind.css <br/>
-  • Firebase  <br/>
-  • React-router-dom <br/>
   • Node.js <br/>
   • Express.js <br/>
-  • MongoDb <br/>
+  • dotenv <br/>
+  • cors<br/>
 
   ### Setup .env file
 
