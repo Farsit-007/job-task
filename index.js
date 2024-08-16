@@ -72,6 +72,7 @@ async function run() {
         query.price = { $gte: minPrice, $lte: maxPrice };
       }
 
+
       const result = await ProductsCollection
         .find(query)
         .sort(options.sort)
@@ -81,7 +82,7 @@ async function run() {
       res.send(result);
     });
 
-
+   //Count Product for pages
     app.get('/products-count', async (req, res) => {
       const brands = req.query.brands || [];
       const categories = req.query.categories || [];
